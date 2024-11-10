@@ -1,5 +1,198 @@
-<html>
-  <body>
-    Hello World
-  </body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crop Express</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.search-icon {
+    font-size: 18px;
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #aad8e8;
+}
+
+.intro p {
+    width: 30%;
+    font-size: 14px;
+    color: #333;
+}
+
+.images-marquee {
+    display: flex;
+    gap: 10px;
+}
+
+.image-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #d0e7f4;
+    border-radius: 10px;
+}
+
+.about {
+    background-color: #000;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 28px;
+}
+
+.about-text {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.text-box, .media-box {
+    width: 48%;
+    padding: 20px;
+    background-color: #e8c28e;
+    text-align: center;
+    font-size: 16px;
+}
+
+.text-box {
+    background-color: #e8c28e;
+}
+
+.media-box {
+    background-color: #f4f4f4;
+    color: #888;
+}
+
+footer {
+    background-color: #e3edc1;
+    text-align: center;
+    padding: 20px;
+}
+
+.slogan {
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+}
+
+.video-section {
+    background-color: #8bbdd9;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="#">HOME</a>
+            <a href="#">CROPS</a>
+            <a href="#">CONSERVATION</a>
+            <a href="#">RESOURCES</a>
+            <span class="search-icon">🔍</span>
+        </div>
+        <div class="banner">
+            <h1>THE CROP EXPRESS</h1>
+        </div>
+    </header>
+    <section class="intro">
+        <p class="left-text">The navigation menu will be hyperlinked with the pages respectively. For the "CROPS" section, there will be options for the audience to choose which crop they want to read about.</p>
+        <div class="images-marquee">
+            <!-- Add images as needed here -->
+            <div class="image-placeholder"></div>
+            <div class="image-placeholder"></div>
+            <div class="image-placeholder"></div>
+            <div class="image-placeholder"></div>
+            <div class="image-placeholder"></div>
+        </div>
+        <p class="right-text">The search icon will be used to search any articles or information on the website.</p>
+    </section>
+    <section class="about">
+        <h2>ABOUT TEXT</h2>
+        <p class="about-text">In this section, the cause will be introduced, in brief</p>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="text-box">Text about Climate Change</div>
+            <div class="media-box">IMAGE/ANIMATION/VIDEO/GIF</div>
+        </div>
+        <div class="row">
+            <div class="media-box">IMAGE/ANIMATION/VIDEO/GIF</div>
+            <div class="text-box">Text about Cultural Shifts</div>
+        </div>
+        <div class="row">
+            <div class="text-box">Text about Loss of Biodiversity</div>
+            <div class="media-box">IMAGE/ANIMATION/VIDEO/GIF</div>
+        </div>
+        <div class="row">
+            <div class="media-box">IMAGE/ANIMATION/VIDEO/GIF</div>
+            <div class="text-box">Text about Economic Pressures</div>
+        </div>
+    </section>
+    <footer>
+        <p class="slogan">NOURISHING THE FUTURE, ONE SEED AT A TIME</p>
+        <div class="video-section">ZOOM-IN VIDEO OF A PHOTO COLLAGE OF RELATED PHOTOS</div>
+    </footer>
+
+
+
+</body>
 </html>
