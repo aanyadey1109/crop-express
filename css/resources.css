@@ -162,7 +162,7 @@ SubMenu
 }
 
 .banner h1 {
-    font-size: 36px;
+    font-size: 50px;
     margin-top: 10px;
 }
 
@@ -195,7 +195,7 @@ SubMenu
 }
 
 .about {
-    background-color: #000;
+    background-color: #0e2f44;
     color: #eee;
     text-align: center;
     padding: 20px;
@@ -378,3 +378,31 @@ Marquee
         }
     }
 }
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .left, .middle {
+    width: 30%;
+  }
+  
+  .right {
+    width: 40%;
+  }
