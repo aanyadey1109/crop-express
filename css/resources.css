@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: Tahoma,Arial, sans-serif;
 }
 
 
@@ -14,7 +14,8 @@ body {
 
 header {
 
-    background-image: url("../images/home_page/header_bg_1.jpg");
+    #background-image: url("../images/home_page/header_bg_1.jpg");
+    background-color: 	#b2dda9;
     color: black;
     text-align: center;
     padding: 10px 0;
@@ -384,7 +385,7 @@ Marquee
     float: left;
     width: 50%;
     padding: 10px;
-    height: 900px;
+    height: 1000px;
 }
 
 .column1 {
