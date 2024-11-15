@@ -93,12 +93,12 @@ SubMenu
     position: absolute;
     background-color: #a3e3a3;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .subnav-content a {
-  
+
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -180,12 +180,6 @@ SubMenu
     color: #333;
 }
 
-/**
-.images-marquee {
-    display: flex;
-    gap: 10px;
-}
-    **/
 
 .image-placeholder {
     width: 150px;
@@ -195,14 +189,15 @@ SubMenu
 }
 
 .about {
-    background-color: #000;
+    background-color: #006769;
     color: #eee;
     text-align: center;
     padding: 20px;
+    font-size: 25px;
 }
 
 .about h2 {
-    font-size: 28px;
+    font-size: 35px;
 }
 
 .about-text {
@@ -218,20 +213,23 @@ SubMenu
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
-}
-
-.text-box,
-.media-box {
-    width: 48%;
-    padding: 20px;
-    text-align: center;
-    font-size: 16px;
+    padding: 0px;
 }
 
 .text-box {
-    background-color: #e8c28e;
+    margin-left: 15px;
+    background-color:#b2dda9;
+    padding: 45px;
+    padding-top: 10px;
 }
+
+img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
 
 .media-box {
     background-color: #f4f4f4;
