@@ -74,14 +74,14 @@ SubMenu
 
 .navbar a:hover,
 .subnav:hover .subnavbtn {
-    background-color: #a3e3a3;
+    background-color: #00b092;
 }
 
 
 .subnav-content {
     display: none;
     position: absolute;
-    background-color: #a3e3a3;
+    background-color: #00b092;
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -193,7 +193,7 @@ SubMenu
 
 .about h2 {
     font-size: 28px;
-    color: #4e00ff;
+    color: white;
 }
 
 .about-text {

@@ -74,7 +74,7 @@ SubMenu
 
 .navbar a:hover,
 .subnav:hover .subnavbtn {
-    background-color: #a3e3a3;
+    background-color: #00b092;
 }
 
 /**
@@ -92,7 +92,7 @@ SubMenu
 .subnav-content {
     display: none;
     position: absolute;
-    background-color: #a3e3a3;
+    background-color: #00b092;
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -218,11 +218,12 @@ SubMenu
 }
 
 .text-box {
-    margin-left: 15px;
-    background-color:#b2dda9;
-    padding: 45px;
+    margin-left: 10px;
+    background-color:#e6e8e8;
+    padding: 15px;
     padding-top: 10px;
-    margin-right: 15px;
+    margin-right: 10px;
+    vertical-align: bottom;
 }
 
 img {
